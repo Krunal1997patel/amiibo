@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.dark-mode{
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.dark-mode .navbar{
+  box-shadow: 0px -3px 11px 6px white;
+}
+
+.navbar{
+  box-shadow: 0px -3px 11px 6px black;
+}
+
+.navbar-center{
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dark-button{
+  margin: 2% 0;
+  padding: 1.5% 3%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.dark-mode .dark-button{
+  margin: 2% 0;
+  padding: 1.5% 3%;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.logo{
+  max-width: 100%;
+  width: 35%;
+}
