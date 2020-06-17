@@ -8,6 +8,10 @@ const SubNav = (props) => {
 			<button>Pokemon</button>
 			<button>Zelda</button>
 			<button>Animal Crossing</button>
+			<button>Splatoon</button>
+			<button>Metroid</button>
+			<button>Icarus</button>
+			<button>Cards</button>
 		</div>
 	);
 };
